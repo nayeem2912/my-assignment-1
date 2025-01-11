@@ -62,7 +62,7 @@ background: rgb(0, 106, 80);
 .visions{
 width: 1280px;
 height: 765px;
-
+margin: 20px auto;
 justify-content: center;
 align-items: center;
 }
@@ -70,14 +70,14 @@ align-items: center;
     display: flex;
     width: 1280px;
 height: 325px;
-margin: 30px 120px;
+margin: 30px auto;
 gap: 24;
 justify-content: space-between;
 }
 .vision-future{
     width: 1280px;
 height: 120px;
-margin: 0px 120px;
+margin: 0px auto;
 }
 .vision-future h2{
     color: rgb(14, 14, 14);
@@ -238,16 +238,19 @@ text-align: left;
     background-color: aqua;
 }
 .yunus{
-    
     width: 1280px;
 height: 256px;
 gap: 24;
-padding: 48px 24px 48px 24px;
 box-sizing: border-box;
 border: 1px solid rgba(14, 14, 14, 0.15);
 border-radius: 16px;
 background: rgb(255, 255, 255);
-margin: 10px 120px;
+margin: 10px auto;
+background-image: url(../assets/quote-bg.png);
+background-repeat: no-repeat;
+background-position: left top;
+padding: 48px 24px 48px 24px;
+
 }
 .yunus p{
     color: rgba(14, 14, 14, 0.8);
@@ -277,3 +280,175 @@ letter-spacing: 0%;
 text-align: left;
 margin-top: -20px;
 }
+.news{
+    width: 1280px;
+height: 1406px;
+gap: 32;
+padding: 0px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+margin: 20px auto;
+}
+.recent{
+    width: 1280px;
+height: 120px;
+margin: 32px 0px;
+}
+.recent h2{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+margin: auto 0px;
+}
+.recent p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin: 10px 0px 32px 0px;
+}
+.satelite-1{
+    width: 1280px;
+    height: 402px;
+    padding: 48px;
+    display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+color:rgb(255, 255, 255);
+}
+.satelite-description{
+    width: 744px;
+height: 290px;
+margin: 0px 32px;
+}
+.satelite-img{
+    width: 408px;
+    height: 306px;
+   border-radius: 30px;
+}
+.satelite-1 h2{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+margin: -8px 0px 0px 0px;
+}
+.al-jazeera{
+    margin: 2px 0px;
+}
+.time{
+    display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 12;
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.date{
+   margin: auto 12px;
+}
+.satelite-1 p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.satelite-1 button{
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+gap: 48;
+padding: 13px 26px 13px 26px;
+border-radius: 8px;
+background: rgb(0, 106, 80);
+}
+.satelite-1 button:hover{
+    background-color: aqua;
+}
+.satelite-2{
+    width: 1280px;
+height: 402px;
+border-radius: 24px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 32;
+padding: 48px;
+background: rgb(255, 255, 255);
+}
+.satelite-2-description{
+    width: 744px;
+height: 290px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 32;
+padding: 0px;
+margin: 32px 0px;
+}
+.satelite-2-description h2{
+    width: 744px;
+height: 38px;
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+margin: -8px 0px 0px 0px;
+}
+.satelite-2 p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.satelite-2 button{
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+gap: 48;
+padding: 13px 26px 13px 26px;
+border-radius: 8px;
+background: rgb(0, 106, 80);
+}
+.satelite-2 button:hover{
+    background-color: aqua;
+}
+
